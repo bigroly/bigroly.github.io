@@ -1,7 +1,238 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link href="css/fa.min.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rolando Chancellor</title>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container pb-4">
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1 mt-4 mb-3">
+                <div class="card p-3">
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <img class="img-fluid profile-image" src="img/profile-img.jpg" />
+                        </div>
+                        <div class="col-12 col-sm-8">
+                            <h3>Hello, I'm Rolando.</h3>
+                            <p class="mb-0"><strong><i class="fas fa-map-pin"></i> Currently located in Melbourne, Australia.</strong></p>
+                            <p>
+                                I work as a software developer and good UX is my jam. Experienced with Angular JS/2+ C#, .NET and always learning new things.
+                                In my spare time I can be found flinging my body down the closest hill
+                                on either a snowboard or mountain bike.
+                            </p>
+                            <p>
+                                I Like tinkering outside of the 9-5 grind, below is a collection of some of this work.
+                            </p>
+
+                            <p>
+                                <strong>Want to chat? Get in touch:</strong>
+                            </p>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <a class="btn btn-outline-secondary btn-block"
+                                        href="mailto:chancellor.rolando@gmail.com"
+                                        >
+                                        <i class="far fa-envelope"></i>
+                                </a>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                        <a class="btn btn-outline-secondary btn-block"
+                                            href="https://www.linkedin.com/in/rchancellor/"
+                                            target="_blank">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                        <a class="btn btn-outline-secondary btn-block"
+                                            href="https://www.instagram.com/bigroly/"
+                                            target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1 mt-4">
+                <h3 class="font-weight-light">Development work:</h3>
+            </div>
+        </div>
+
+        <!-- Dev #1 -->
+        <div class="row">
+            <div class="col-12 col-sm-10 offset-sm-1 mb-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <img class="img-fluid" src="img/dev-1-vuestate.png" />
+                        </div>
+                        <div class="col-12 col-sm-8 pb-3">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="mt-2">Vue State</h3>
+                                    <p>First attempt at a Vue app integrating application level state management using
+                                        VueX.This builds on the previous app I created, again using the super simple use-case of a 
+                                        To-do list, but this time adding Vuex to manage component state at an app level supporting CRUD functionality, 
+                                        rather than passing props up and down the component chain. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <a class="btn btn-outline-secondary" href="https://github.com/bigroly/vue-state" target="_blank">
+                                        <i class="fab fa-github"></i> View on Github
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 mt-3">
+                                        <span class="badge badge-pill badge-info">VueJS</span>
+                                        <span class="badge badge-pill badge-info">Vue CLI</span>
+                                        <span class="badge badge-pill badge-info">VueX</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dev #2 -->
+            <div class="col-12 col-sm-10 offset-sm-1 mb-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <img class="img-fluid" src="img/dev-1-vuestate.png" />
+                        </div>
+                        <div class="col-12 col-sm-8 pb-3">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="mt-2">Oncology Care App</h3>
+                                    <p>
+                                        This one came from a friend of mine whos partner worked in Oncology care.
+                                        Idea was to create a medium for patients to record their ongoing treatment symptomps for efficient review at their appointments.
+                                        Built as an Angular front end, integrating into a GoogleFirebase serverless back end for authentication and data storage.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <a class="btn btn-outline-secondary" href="https://github.com/bigroly/CancerCareApp" target="_blank">
+                                        <i class="fab fa-github"></i> View on Github
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 mt-3">
+                                        <span class="badge badge-pill badge-info">Angular</span>
+                                        <span class="badge badge-pill badge-info">Firebase</span>
+                                        <span class="badge badge-pill badge-info">Google Cloud Platform</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dev #3 -->
+            <div class="col-12 col-sm-10 offset-sm-1 mb-3">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-12 col-sm-4">
+                                <img class="img-fluid" src="img/dev-1-vuestate.png" />
+                            </div>
+                            <div class="col-12 col-sm-8 pb-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="mt-2">Vue Do</h3>
+                                        <p>Get it? Like to-do but with "vue" in it. #lovemeadadjoke. <br/>
+                                            My first Vue app, I've been curious about this framework so decided to try and 
+                                            put together a really basic example using a to-do notes use case to perform
+                                            all the basic app functions.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a class="btn btn-outline-secondary" href="https://github.com/bigroly/vue-do" target="_blank">
+                                            <i class="fab fa-github"></i> View on Github
+                                        </a>
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="col-12 mt-3">
+                                            <span class="badge badge-pill badge-info">VueJS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="row">
+                <div class="col-12 col-sm-10 offset-sm-1 mt-4">
+                    <h3 class="font-weight-light">UI/UX work:</h3>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-12 col-sm-10 offset-sm-1">
+                    <div class="card">
+                            <div class="card">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-4">
+                                            <img class="img-fluid" src="img/dev-1-vuestate.png" />
+                                        </div>
+                                        <div class="col-12 col-sm-8 pb-3">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <h3 class="mt-2">Concept Travel App</h3>
+                                                    <p>
+                                                        Trying to
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <a class="btn btn-outline-secondary" href="https://www.instagram.com/p/BykbpUPnarF/" target="_blank">
+                                                        <i class="fab fa-instagram"></i> View on Instagram
+                                                    </a>
+                                                </div>
+                                            </div>
+                
+                                            <div class="row">
+                                                <div class="col-12 mt-3">
+                                                        <span class="badge badge-pill badge-info">UX</span>
+                                                        <span class="badge badge-pill badge-info">UI</span>
+                                                        <span class="badge badge-pill badge-info">Adobe XD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                </div>
+            </div>
+    </div>
 </body>
+
 </html>
