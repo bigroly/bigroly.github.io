@@ -8,6 +8,21 @@ body{
     border: 6px solid #17a2b8;
 }
 
+@media(max-width:767px){
+    .profile-image{
+        max-width: 85%;
+        margin: 5px 5px 20px 5px;
+    }
+}
+
 .font-weight-light{
     font-weight: 100;
+}
+
+p{
+    font-weight: 300;
+}
+
+strong{
+    font-weight: 400;
 }
