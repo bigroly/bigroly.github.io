@@ -26,3 +26,8 @@ p{
 strong{
     font-weight: 400;
 }
+
+.badge-pill{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
