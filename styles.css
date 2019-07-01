@@ -19,7 +19,7 @@ body{
     font-weight: 100;
 }
 
-p{
+p, ul li{
     font-weight: 300;
 }
 
