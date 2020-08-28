@@ -21,6 +21,8 @@
     <link href="css/fa.min.css" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+
     <title>Rolando Chancellor</title>
 </head>
 
@@ -30,14 +32,14 @@
             <div class="col-12 mt-4 mb-3">
                 <div class="card p-3">
                     <div class="row">
-                        <div class="col-12 col-sm-4">
-                            <img class="img-fluid profile-image" src="img/profile-img.jpg" />
+                        <div class="col-12 col-sm-4 text-center">
+                            <img class="img-fluid profile-image" src="img/profile-img-sml.jpg" />
                         </div>
                         <div class="col-12 col-sm-8">
                             <h3>Hello, I'm Rolando.</h3>                            
                             <p>
-                                I work as a software developer and good UX is my jam. Experienced with Angular JS/2+ C#,
-                                .NET and always keen to learn something new.
+                                I work as a software engineer and good UX is my jam. Experienced with Angular, C#,
+                                .NET Core but always keen to learn something new. <br/>
                                 In my spare time I can be found flinging my body down the closest hill
                                 on either a snowboard or mountain bike.
                             </p>
@@ -84,220 +86,22 @@
 
         <div class="row">
             <div class="col-12 mt-4">
+                <h3 class="font-weight-light">Development</h3>
+            </div>
+        </div>
+        <div class="row" id="devContent">
+
+        </div> 
+
+        <div class="row">
+            <div class="col-12 mt-4">
                 <h3 class="font-weight-light">UI/UX</h3>
             </div>
         </div>
         <div class="row" id="uiUxContent">
 
         </div>        
-
-        <div class="row">
-            <div class="col-12 mt-4">
-                <h3 class="font-weight-light">Development</h3>
-            </div>
-        </div>
-
-        <!-- Dev #1 -->
-        <div class="row">
-            <div class="col-12 mb-3">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-12 col-sm-4">
-                            <img class="img-fluid" src="img/dev -5-ngrx.PNG" />
-                        </div>
-                        <div class="col-12 col-sm-8 pb-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h3 class="mt-2 p-2 p-sm-1">NgRx Demo</h3>
-                                    <p class="p-2 p-sm-1">
-                                        Had never tried any formal app-level state management for Angular before so I thought I would give NgRx a try. This a basic implementation to pull user info from a mock endpoint.
-                                        Will look to update and point it towards Firebase for something in the future.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 m-2 m-sm-1">
-                                    <a class="btn btn-outline-secondary" href="https://github.com/bigroly/ngrx-demo"
-                                        target="_blank">
-                                        <i class="fab fa-github"></i> View on Github
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-12 m-2 m-sm-1 mt-sm-3">
-                                    <span class="badge badge-pill badge-info">Angular</span>
-                                    <span class="badge badge-pill badge-info">NgRx</span>                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Dev #2 -->
-        <div class="row">
-            <div class="col-12 mb-3">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-12 col-sm-4">
-                            <img class="img-fluid" src="img/dev-1-vuestate.png" />
-                        </div>
-                        <div class="col-12 col-sm-8 pb-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h3 class="mt-2 p-2 p-sm-1">Vue State</h3>
-                                    <p class="p-2 p-sm-1">First attempt at a Vue app integrating application level state management using
-                                        VueX.This builds on the previous app I created, again using the super simple
-                                        use-case of a
-                                        To-do list, but this time adding Vuex to manage component state at an app level
-                                        supporting CRUD functionality,
-                                        rather than passing props up and down the component chain.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 m-2 m-sm-1">
-                                    <a class="btn btn-outline-secondary" href="https://github.com/bigroly/vue-state"
-                                        target="_blank">
-                                        <i class="fab fa-github"></i> View on Github
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-12 m-2 m-sm-1 mt-sm-3">
-                                    <span class="badge badge-pill badge-info">VueJS</span>
-                                    <span class="badge badge-pill badge-info">Vue CLI</span>
-                                    <span class="badge badge-pill badge-info">VueX</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Dev #3 -->
-            <div class="col-12 mb-3">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-12 col-sm-4">
-                            <img class="img-fluid" src="img/dev-2-oncologycare.PNG" />
-                        </div>
-                        <div class="col-12 col-sm-8 pb-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h3 class="mt-2 p-2 p-sm-1">Oncology Care App</h3>
-                                    <p class="p-2 p-sm-1">
-                                        This one came from a friend of mine whos partner worked in Oncology care.
-                                        Idea was to create a medium for patients to record their ongoing treatment
-                                        symptomps for efficient review at their appointments.
-                                        Built as an Angular front end, integrating into a GoogleFirebase serverless back
-                                        end for authentication and data storage.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 m-2 m-sm-1">
-                                    <a class="btn btn-outline-secondary" href="https://github.com/bigroly/CancerCareApp"
-                                        target="_blank">
-                                        <i class="fab fa-github"></i> View on Github
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-12 m-2 m-sm-1 mt-sm-3">
-                                    <span class="badge badge-pill badge-info">Angular</span>
-                                    <span class="badge badge-pill badge-info">Firebase</span>
-                                    <span class="badge badge-pill badge-info">Google Cloud Platform</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Dev #4 -->
-            <div class="col-12 mb-3">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-12 col-sm-4">
-                            <img class="img-fluid" src="img/dev-3-vue-todo.PNG" />
-                        </div>
-                        <div class="col-12 col-sm-8 pb-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h3 class="mt-2 p-2 p-sm-1">Vue Do</h3>
-                                    <p class="p-2 p-sm-1">Get it? Like to-do but with "vue" in it. #lovemeadadjoke. <br />
-                                        My first Vue app, I've been curious about this framework so decided to try and
-                                        put together a really basic example using a to-do notes use case to perform
-                                        all the basic app functions.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <a class="btn btn-outline-secondary m-2 m-sm-1" href="https://github.com/bigroly/vue-do"
-                                        target="_blank">
-                                        <i class="fab fa-github"></i> View on Github
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-12 m-2 m-sm-1 mt-sm-3">
-                                    <span class="badge badge-pill badge-info">VueJS</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Dev #5 -->
-            <div class="col-12 mb-3">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-12 col-sm-4">
-                            <img class="img-fluid" src="img/dev-4-bte.PNG" />
-                        </div>
-                        <div class="col-12 col-sm-8 pb-3">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h3 class="mt-2 p-2 p-sm-1">Between The Ears</h3>
-                                    <p class="p-2 p-sm-1 mb-0">
-                                        University project where we built a system for BTE - a sports psychology practice in Melbourne.
-                                        The project was built using CakePHP and included:
-                                    </p>
-                                    <ul class="">
-                                        <li>Customer self-serve appointment booking and invoice generation</li>
-                                        <li>Configurable online store, linked to Paypal for payments.</li>
-                                        <li>Public facing website driven by a CMS.</li>
-                                        <li>Blog post and subscription functionality.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <a class="btn btn-outline-secondary m-2 m-sm-1" href="https://www.betweentheears.com.au/home"
-                                        target="_blank">
-                                        <i class="fas fa-external-link-alt"></i> View Website
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-12 m-2 m-sm-1 mt-sm-3">
-                                    <span class="badge badge-pill badge-info">PHP</span> <span class="badge badge-pill badge-info">Bootstrap</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>        
+    
+    </div>        
 </body>
 </html>
