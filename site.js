@@ -119,9 +119,9 @@ const uxWork =[
     imgLink: 'img/ux-1-travelAppConcept.png',
     links:[
       {
-        url: 'https://www.instagram.com/p/BykbpUPnarF/',
-        faIcon: 'fab fa-instagram',
-        text: 'View on Instagram'
+        url: 'https://imgur.com/XhpNmc9',
+        faIcon: 'fab fa-youtube',
+        text: 'View Demo Video'
       }
     ],
     badges: [
@@ -145,9 +145,9 @@ const uxWork =[
     imgLink: 'img/ux-2-IOTControlConcept.png',
     links: [
       {
-        url: 'https://www.instagram.com/p/BzLHD9eHNNw/',
-        faIcon: 'fab fa-instagram',
-        text: 'View on Instagram',
+        url: 'https://imgur.com/a/LML8gC6',
+        faIcon: 'fab fa-youtube',
+        text: 'View Demo Video',
       }
     ],
     badges: [
