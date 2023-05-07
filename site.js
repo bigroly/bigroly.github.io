@@ -4,7 +4,7 @@ const devWork = [
     description: `Almost anything you want to build requires authentication of some sort, so why not centralise it for easy reusability moving forward.
                   I'm hoping to tinker with other new frameworks and technologies in the future by creating simple applications to get experience with them, the first step
                   was to get a fairly lightweight authentication service up to support this, which is where this project comes in. Check out the Readme in repo for more details!`,
-    imgLink: 'img/dev-6-auth.PNG',
+    imgLink: 'img/dev-6-auth.png',
     links: [
       {
         url: 'https://github.com/bigroly/roly-auth-backend',
