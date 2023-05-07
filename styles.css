@@ -1,11 +1,11 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background: #e2f5ff;
+    background: #DCF4EC;
 }
 
 .profile-image{
     border-radius: 50%;
-    border: 6px solid #17a2b8;
+    border: 6px solid #458E75;
 }
 
 @media(max-width:767px){
