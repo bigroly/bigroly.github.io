@@ -10,6 +10,11 @@ const devWork = [
         url: 'https://github.com/bigroly/roly-auth-backend',
         faIcon: 'fab fa-github',
         text: 'View on Github',
+      },
+      {
+        url: 'https://auth.rolyapps.com/login',
+        faIcon: 'fas fa-globe',
+        text: 'Try App',
       }
     ],
     badges: [
@@ -203,7 +208,7 @@ const buildContent = function(contentArray){
     
     let linkDomHtml = '';
     for(let link of article.links){
-      linkDomHtml += `<a class="btn btn-outline-secondary"
+      linkDomHtml += `<a class="btn btn-outline-secondary mx-2"
                           href="${link.url}" target="_blank">
                           <i class="${link.faIcon}"></i> ${link.text}
                       </a>`;
