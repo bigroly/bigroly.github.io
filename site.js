@@ -14,7 +14,7 @@ const devWork = [
       {
         url: 'https://auth.rolyapps.com/login',
         faIcon: 'fas fa-globe',
-        text: 'Try App',
+        text: 'Try the App',
       }
     ],
     badges: [
