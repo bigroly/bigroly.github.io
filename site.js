@@ -1,9 +1,9 @@
 const devWork = [
   {
-    title: 'RolyApps Authentication Service Template',
-    description: `Almost anything you want to build requires authentication of some sort, so why not centralise it for easy reusability moving forward.
-                  I'm hoping to tinker with other new frameworks and technologies in the future by creating simple applications to get experience with them, the first step
-                  was to get a fairly lightweight authentication service up to support this, which is where this project comes in. Check out the Readme in repo for more details!`,
+    title: 'Serverless Auth Service',
+    description: `A dead simple authentication service built using AWS Cognito, Lambda, API Gateway and DynamoDb.
+                  I like to tinker and learn new technologies by building out my own little mini apps, all of which need authentication so I built a generic lightweight authentication service that implements OTP and username/password flows for JWT tokens.
+                  Feel free to use it yourself, or fork it and make it your own! - details in Github repo linked below and a live demo is available too.`,
     imgLink: 'img/dev-6-auth.png',
     links: [
       {
